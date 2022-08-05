@@ -18,6 +18,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Graficas}/{action=Lineas}");
+    pattern: "{controller=Home}/{action=Index}");
 
 app.Run();
