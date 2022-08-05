@@ -10,5 +10,17 @@ namespace Pedidos.Controllers {
         public ActionResult ERPastel() {
             return View();
         }
+
+        public ActionResult TotalesEstadoRep(){
+            return View();
+        }
+
+        public ActionResult TotalesEstadosRegion() {
+            return View();
+        }
+
+        public ActionResult TotalesEstadosGrupos() {
+            return View();
+        }
     }
 }
