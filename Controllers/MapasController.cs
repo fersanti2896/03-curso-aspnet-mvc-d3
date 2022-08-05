@@ -22,5 +22,9 @@ namespace Pedidos.Controllers {
         public ActionResult TotalesEstadosGrupos() {
             return View();
         }
+
+        public ActionResult MapaMexico() {
+            return View();
+        }
     }
 }
